@@ -1,0 +1,69 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Pandeysa2.dv\\Downloads\\cosmos-dotnet-core-todo-app-master (1)\\cosmos-dotnet-core-todo-app-master\\src\\todo.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Pandeysa2.dv\\Downloads\\cosmos-dotnet-core-todo-app-master (1)\\cosmos-dotnet-core-todo-app-master\\src\\todo.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Pandeysa2.dv\\Downloads\\cosmos-dotnet-core-todo-app-master (1)\\cosmos-dotnet-core-todo-app-master\\src\\todo.csproj",
+        "projectName": "todo",
+        "projectPath": "C:\\Users\\Pandeysa2.dv\\Downloads\\cosmos-dotnet-core-todo-app-master (1)\\cosmos-dotnet-core-todo-app-master\\src\\todo.csproj",
+        "packagesPath": "C:\\Users\\Pandeysa2.dv\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Pandeysa2.dv\\Downloads\\cosmos-dotnet-core-todo-app-master (1)\\cosmos-dotnet-core-todo-app-master\\src\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Pandeysa2.dv\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.1, )",
+              "autoReferenced": true
+            },
+            "Microsoft.Azure.Cosmos": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
